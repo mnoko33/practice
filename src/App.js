@@ -9,6 +9,7 @@ import Password from './components/Password';
 import Ref from './components/Ref';
 import Iteration from './components/Iteration';
 import Add from './components/Add';
+import LiftingState from './components/LiftingState';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Ref />
       <Iteration />
       <Add />
+      <LiftingState />
     </div>
   );
 }
