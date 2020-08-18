@@ -10,10 +10,14 @@ import Ref from './components/Ref';
 import Iteration from './components/Iteration';
 import Add from './components/Add';
 import LiftingState from './components/LiftingState';
+import LifeCycle from './components/LifeCycle';
+import CssWithImport from './components/CssWithImport';
+import Scss from './components/Scss';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ margin: '50px', boxSizing: 'border-box' }}>
       <Comp />
       <Variable />
       <Style />
@@ -25,6 +29,9 @@ function App() {
       <Iteration />
       <Add />
       <LiftingState />
+      <LifeCycle propsColor="blue" />
+      <CssWithImport />
+      <Scss />
     </div>
   );
 }

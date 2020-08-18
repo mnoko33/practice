@@ -1,0 +1,34 @@
+@import './utils.scss';
+
+.box {
+    display: flex;
+    .card {
+        background: yellow;
+        @include square(1);
+    }
+
+    & .red {
+        background: $red;
+        @include square(2);
+    }
+    & .blue {
+        background: $blue;
+        @include square(3);
+    }
+    & .orange {
+        background: $ornage;
+        @include square(4);
+    }
+    & .green {
+        background: $green;
+        @include square(5);
+    }
+
+    & .indigo {
+        background: $indigo;
+        @include square(6);
+    }
+    &:hover {
+        border: solid 2px black;
+    }
+}
