@@ -13,6 +13,7 @@ import LiftingState from './components/LiftingState';
 import LifeCycle from './components/LifeCycle';
 import CssWithImport from './components/CssWithImport';
 import Scss from './components/Scss';
+import StyledComponent from './components/StyledComponent';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <LifeCycle propsColor="blue" />
       <CssWithImport />
       <Scss />
+      <StyledComponent />
     </div>
   );
 }
