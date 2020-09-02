@@ -1,0 +1,103 @@
+:root {
+  --all-color: lightskyblue;
+  --done-color: limegreen;
+  --aborted-color: lightcoral;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-area {
+  height: 5vh;
+}
+
+.id-viewer {
+  width: 80px;
+  height: 45px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+}
+
+#fetch-btn {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  width: 90px; 
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+  margin: 20px 0 0 20px;
+  border-radius: 5px;
+}
+
+#fetch-btn:hover {
+  cursor: pointer;
+}
+
+#fetch-btn:active {
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  min-height: 90vh;
+}
+
+.wrapper {
+  display: inline-block;
+  margin: 1vw;
+  width: 32vw;
+}
+
+.wrapper > h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+  width: 80%;
+}
+
+.all-fetch-wrapper {
+  border: solid var(--all-color) 5px;
+}
+
+.all-fetch-wrapper > h2 {
+  border-bottom: 3px solid var(--all-color);
+}
+
+.aborted-fetch-wrapper {
+  border: solid 5px var(--aborted-color);
+}
+
+.aborted-fetch-wrapper > h2 {
+  border-bottom: 3px solid var(--aborted-color);
+}
+
+.done-fetch-wrapper {
+  border: solid var(--done-color) 5px;
+}
+
+.done-fetch-wrapper > h2 {
+  border-bottom: 3px solid var(--done-color);
+}
+
+.card {
+  margin: 10px auto;
+  width: 80%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.vacant {
+  border: none;
+}
